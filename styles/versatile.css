@@ -178,7 +178,6 @@ background-color:black;
 .habits{
   display:flex;
   flex-direction: column;
-  
 }
 .habit-content{
   margin: 0 auto;
@@ -227,7 +226,6 @@ background-color:black;
 
 /* Run an Extra Mile Easily style start */
 .running{
-/* display: flex; */
 width: 1060px;
 margin: 0 auto;
 border-radius: 18px;
@@ -261,7 +259,62 @@ background-color: rgba(34, 34, 34, 1);
   border-radius: 18px;
 }
 /* team style start */
+.teams{
+  display:flex;
+  flex-direction: column;
+}
+.team-content{
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.team-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.team-description{
+  font-size:0.87rem;
+  font-weight: 400;
+  margin-top: -20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.team-container{
+  padding: 15px;
+  margin: 100px auto;
+  height: 570px;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:15px;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+  margin-top: 10px;
+  
+}
+.team-card{
+  text-align: left;
+  height: 200px;
+}
+.team-img{
+  width: 326px;
+  height:272px;
+  border-radius: 18px;
+}
+.team-img-name{
+  font-size: 1.125rem;
+  font-weight: 900;
+  color: white;
+  margin-top: -50px;
+  margin-left: 15px;
+}
+.team-img-description{
+  font-size: 0.87rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: -15px;
+  margin-left: 15px;
 
+}
 /* responsive media query  */
 @media screen and (max-width: 576px) {
   .navbar,
