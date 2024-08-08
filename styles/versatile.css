@@ -262,6 +262,86 @@ background-color: rgba(34, 34, 34, 1);
   object-position: 66% 33%;
   border-radius: 18px;
 }
+/* BMI calculator start */
+.chart-form{
+  padding: 50px 200px 50px 200px; 
+  display: flex;
+  background-color: rgba(34, 34, 34, 1);
+}
+.bmi{
+  display:flex;
+  flex-direction: column;
+  
+}
+.bmi-content{
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 60px;
+  
+}
+.bmi-content h1{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.bmi-content p{
+  font-size:0.87rem;
+  font-weight: 400;
+  margin-top: -20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-chart{
+    margin-left: 300px;
+
+}
+.bmi-chart h1{
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: white;
+  width: 285px;
+}
+table{
+  border-collapse: collapse;
+}
+td, th{
+  border: 1px solid  rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+}
+th{
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+td{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.bmi-form h3{
+  color: white;
+}
+.bmi-form p{
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 34px;
+}
+.bmi-form{
+  margin-left: 200px;  
+}
+ input, input, select{
+  height: 28px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);   
+  max-width: 40%;
+  padding: 12px;  
+  margin: 5px 9px ;
+  margin-left: -2px;
+}
+
+
 /* team style start */
 .teams{
   display:flex;
@@ -324,8 +404,9 @@ background-color: rgba(34, 34, 34, 1);
   background-color: rgba(34, 34, 34, 1);
 }
 .first-side{
-  margin-top: -60px;
+  margin-top: -80px;
   margin-left: 410px;
+  
 }
 .first-side h1{
 font-weight: 800;
