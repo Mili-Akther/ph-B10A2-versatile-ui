@@ -33,15 +33,15 @@
 }
 .menu-icon {
   display: none;
-}
-.menu-icon i {
   color: white;
   font-size: 30px;
-  float: right;
-  line-height: 80px;
-  margin: 40px;
+  cursor: pointer;
+}
+
+.menu-toggle {
   display: none;
 }
+
 /* shared styles  */
 .display-flex {
   display: flex;
@@ -569,17 +569,40 @@ select {
 }
 /* mobile */
 @media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #111111;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+  .nav-item {
+    margin: 10px 0; /* Adds space between items */
+  }
+
+  .btn-primary, .btn {
+    padding: 16px, 40px, 16px, 40px;
+    margin: 10px auto;
+  }
   .banner {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
   .box-button {
-    top: 22%;
-    right: 10%;
+    top: 10%;
+    right: -5%;
   }
   .box-button-second {
-    bottom: 10%;
-    left: 10%;
+    bottom: 45%;
+    left: 8%;
   }
   .habit-container {
     gap: 30px;

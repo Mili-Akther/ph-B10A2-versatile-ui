@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ph-B10A2-versatile-ui</title>
     <link rel="stylesheet" href="styles/versatile.css" />
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +18,11 @@
       <div class="container mx-auto">
         <nav class="navbar display-flex">
           <h3 class="brand">Fitness</h3>
+           <input type="checkbox" class="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
           <ul class="nav-links display-flex">
             <li class="nav-item btn-primary">
               <a href="" class="nav-link text-white">Home</a>
@@ -32,10 +38,6 @@
             </li>
           </ul>
         </nav>
-        <div class="menu-icon">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-
         <div class="banner display-grid w-full">
           <div class="banner-content w-full display-flex order-1">
             <h1 class="banner-title text-3A3A3A">
@@ -340,7 +342,7 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer class="footer-bg p-24 pb-0">
+    <footer class="footer-bg p-24 pb-0 overflow-hidden">
       <div class="display-grid footer container mx-auto">
         <div class="first-side">
           <h1>Fitness</h1>
