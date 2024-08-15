@@ -395,19 +395,11 @@ nav {
   border-inline: 5px solid #e6533c;
   writing-mode: horizontal-tb;
   
-  
 }
 
-
-/* .moves-img {
-  height: 180px;
-  width: 180px;
-  border-radius: 50px;
-} */
 /* BMI calculator start */
 .chart-bg {
   /* padding: 50px 90px 50px 90px; */
-
   background-color: rgba(34, 34, 34, 1);
 }
 .chart-form {
@@ -431,9 +423,7 @@ nav {
 .bmi-content p {
   font-size: 0.87rem;
   font-weight: 400;
-  /* margin-top: -20px; */
   color: rgba(255, 255, 255, 0.5);
-  /* margin-top: 15px; */
 }
 
 
@@ -441,8 +431,6 @@ nav {
   font-size: 1.75rem;
   font-weight: 900;
   color: white;
-  /* width: 285px; */
-  /* margin-bottom: 40px; */
 }
 table {
   border-collapse: collapse;
@@ -581,6 +569,7 @@ select {
 }
 .first-side{
   width: 400px;
+
 }
 .first-side h1 {
   font-weight: 800;
@@ -592,11 +581,12 @@ select {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   line-height: 1rem;
+  padding: 20px 5px;
 }
 
 .second-side li, .third-side li {
   list-style-type: none;
-  padding-bottom: 15px; 
+  padding: 15px;
 }
 
 .second-side h1 {
