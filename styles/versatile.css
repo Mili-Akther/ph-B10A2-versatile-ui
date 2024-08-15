@@ -553,6 +553,7 @@ select {
 /* footer section start */
 
 .footer-bg {
+  padding: 50px;
   background-color: rgba(34, 34, 34, 1);
 }
 .footer {
@@ -636,15 +637,27 @@ select {
   .habit-container {
     grid-template-columns: repeat(2, 1fr);
   }
+ .moves-container {
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
   .chart-form {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
   .team-container {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 
-}
+  }
+
+  .footer {
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  }
+  .line{
+    width: 100% ; 
+  }
 }
 /* mobile */
 @media screen and (max-width: 576px) {
@@ -709,8 +722,13 @@ select {
   grid-template-columns: repeat(1, 1fr);
   }
   .line{
-    width: 100% ;
+    width: 100% ; 
+    align-items: start;
+
   }
+  .all-right {
+  align-items: start;
+}
 }
 
 
