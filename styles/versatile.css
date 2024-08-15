@@ -315,6 +315,95 @@ nav {
   aspect-ratio: 4/3;
   border-radius: 18px;
 }
+/* fine what moves you */
+
+.moves{
+  display: flex;
+  flex-direction: column;
+  
+}
+.moves-content {
+  margin: 0 auto;
+  text-align: center;
+}
+.moves h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  margin-top: 85px;
+}
+.moves p {
+  font-size: 0.87rem;
+  font-weight: 400;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.moves-container {
+  background-color: rgba(34, 34, 34, 1); 
+  margin:100px auto;
+  padding:40px 45px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.img-title-all {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  margin-top: -60px;
+}
+
+.img1-content{
+  flex-direction: column;
+  align-items: center;
+}
+.img-title-gym {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: white;
+  align-items: start;
+  
+}
+.img-description-gym {
+  font-size: 0.87rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+
+  
+}
+.moves-card {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+.moves-img-1{ 
+    width: 280px;
+    height: 320px;
+    margin-bottom: -60px;
+    border-radius: 120px 5px 5px 5px; 
+    border-inline: 5px solid #e6533c;
+    writing-mode:vertical-lr;
+   
+}
+.moves-img-all {
+  height: 400px;
+  width: 170px;
+  border-radius: 50px 5px 5px 5px;
+  border-inline: 5px solid #e6533c;
+  writing-mode: horizontal-tb;
+  
+  
+}
+
+
+/* .moves-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50px;
+} */
 /* BMI calculator start */
 .chart-bg {
   /* padding: 50px 90px 50px 90px; */
@@ -611,6 +700,11 @@ select {
   .run {
     grid-template-columns: repeat(1, 1fr);
   }
+  .moves-container {
+  gap: 50px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
   .chart-form {
     display: grid;
     gap: 20px;
@@ -621,7 +715,7 @@ select {
 
   }
   .footer {
-    gap: 30px;
+  gap: 30px;
   grid-template-columns: repeat(1, 1fr);
   }
   .line{
